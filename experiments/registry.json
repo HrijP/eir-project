@@ -1,1 +1,31 @@
-{"experiments": []}
+{
+  "experiments": [
+    {
+      "model": "huawei-noah/TinyBERT_General_4L_312D",
+      "domain": "statics",
+      "epochs": 3,
+      "train_sentences": 6791,
+      "final_loss": 5.379929112453087,
+      "seed": 42,
+      "corpus_version": "v1.0"
+    },
+    {
+      "model": "distilbert/distilbert-base-uncased",
+      "domain": "statics",
+      "epochs": 3,
+      "train_sentences": 6791,
+      "final_loss": 2.3632554731182025,
+      "seed": 42,
+      "corpus_version": "v1.0"
+    },
+    {
+      "model": "google-bert/bert-base-uncased",
+      "domain": "statics",
+      "epochs": 3,
+      "train_sentences": 6791,
+      "final_loss": 2.256776367636288,
+      "seed": 42,
+      "corpus_version": "v1.0"
+    }
+  ]
+}
